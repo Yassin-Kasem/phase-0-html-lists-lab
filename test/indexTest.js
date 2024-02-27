@@ -74,7 +74,7 @@ describe("the <ol> tag", () => {
     const ol = document.querySelector("ol");
     const hint = "The document should have a <ol> element";
 
-    expect(ol, hint).to.exist;
+    expect(ol, hint).to.exist; 
   });
 
   it("has five child <li> tags with the correct content", () => {
